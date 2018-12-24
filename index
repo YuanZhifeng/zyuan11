@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>This is test</title>
+</head>
+<body>
+<div class="xxx">
+    <ul>
+        <li class="1"><a href="11"><span>首页</span></a> </li>
+        <li class="2"><a href="22"><span>视频</span></a> </li>
+        <li class="3"><a href="33"><span>培训</span></a> </li>
+        <li class="4"><a href="44"><span>其他</span></a> </li>
+    </ul>
+</div>
+<div class="55">
+    <div class="66">
+        <h1><a href="77">直播视频</a></h1>
+        <img src="下载.jpg">
+    </div>
+</div>
+<div class="88">
+    <div class="99">
+        <h1><a href="110">培训视频</a></h1>
+        <img src="下载.jpg">
+    </div>
+</div>
+</body>
+</html>
