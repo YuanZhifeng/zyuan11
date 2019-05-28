@@ -1,0 +1,30 @@
+<view>
+  <swiper indicator-dots='true' autoplay='true' interval='5000' circular='true'>
+    <swiper-item>
+      <image src='/image/5.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/image/6.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/image/7.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class='post-container'>
+  <view class='post-author-date'>
+  <image src="{{avatar}}"/>
+  <text>{{object.date}}</text>
+  </view>
+  <text class='post-title'>{{title}}</text>
+  <image class='post-image' src="{{postImg}}" mode='aspectFill'/>
+  <text class='post-content'>{{content}}</text>
+  <view class='post-like'>
+    <image src='/image/xihuan.png'></image>
+    <text>{{collectionNum.array[0]}}</text>
+    <image src='/image/lookup.png'></image>
+    <text>{{readingNum}}</text>
+    <image src='/image/xiaoxi.png'></image>
+    <text>{{commentNum}}</text>
+  </view>
+</view>
